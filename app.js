@@ -12,7 +12,6 @@ window.addEventListener("DOMContentLoaded", () => {
 //Show drinks
 const showDrinks = async (url) => {
   const data = await fetchDrinks(url);
-
   const section = await displayDrinks(data);
   if (section) {
     setDrink(section);

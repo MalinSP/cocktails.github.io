@@ -179,3 +179,15 @@ input::placeholder {
   display: inline-block;
   margin-top: 2rem;
 }
+@media screen and (max-width: 426px) {
+  .single-drink {
+    grid-template-columns: auto;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    background-color: #00164f;
+    color: #e6e8ee;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+  }
+}
